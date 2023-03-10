@@ -38,7 +38,8 @@ const Right = styled.div`
 const Title = styled.span`
   font-size: 70px;
   @media only screen and (max-width: 480px) {
-    font-size: 50px;
+    font-size: 25px;
+    color: white;
   }
 `;
 
@@ -47,12 +48,21 @@ const SubTitle = styled.span`
   font-style: italic;
   color: #333;
   margin-top: 30px;
+  
+  @media only screen and (max-width: 480px) {
+    text-align: right;
+    float: right;
+    color: black;
+    padding-left: 125px;
+  }
 `;
 
 const Desc = styled.p`
   font-size: 20px;
   color: #777;
   margin-top: 30px;
+
+
 `;
 
 const Button = styled.button`
